@@ -10,6 +10,21 @@ However, unlike regular Python libraries, Processing libraries are included via 
 
 ### Minim
 
+<details>
+<summary>Assets used in this example</summary>
+
+Click on the links to download the files.
+
+[Intro.wav](../assets/Intro.wav)
+
+<audio controls src="../assets/Intro.wav"></audio>
+
+[game.mp3](../assets/game.mp3)
+
+<audio controls src="../assets/game.mp3"></audio>
+
+</details>
+
 ```python
 add_library('minim')
 
@@ -68,6 +83,21 @@ This is achieved by keeping the sample in an internal buffer within memory.
 Because of this, sampling should be limited to short sounds that are repeatedly used.
 The size of the internal buffer may be adjusted via the second parameter of the `loadSample()` function.
 The default buffer size is `1024`.
+
+<details>
+<summary>Assets used in this example</summary>
+
+Click on the links to download the files.
+
+[BD.mp3](../assets/BD.mp3)
+
+<audio controls src="../assets/BD.mp3"></audio>
+
+[SD.wav](../assets/SD.wav)
+
+<audio controls src="../assets/SD.wav"></audio>
+
+</details>
 
 ```python
 add_library('minim')
@@ -292,6 +322,19 @@ Parameter | Type | Description
 `dh` | `int` | destination image height
 
 #### Example:
+
+<details>
+<summary>Assets used in this example</summary>
+
+[car.png](../assets/car.png)
+
+![car.png](../assets/car.png)
+
+[country road.PNG](../assets/country%20road.PNG)
+
+![country road.PNG](../assets/country%20road.PNG)
+
+</details>
 
 ```python
 def setup():
