@@ -10,10 +10,6 @@ However, unlike regular Python libraries, Processing libraries are included via 
 
 ### Minim
 
-> "I couldn't really find a nice way to make this explanation a non comment-based code block example, sorry"
->
-> \- <cite>Timbits<cite/>
-
 ```python
 add_library('minim')
 
@@ -123,10 +119,6 @@ def mouseClicked():
 
 ## Inputting Text
 
-> "Why is this here"
->
-> \- <cite>Timbits<cite/>
-
 ```python
 input = ""
 
@@ -235,10 +227,6 @@ def draw():
 Now we can see the ellipse is blinking.
 Let's add an else statement and another ellipse in a different spot so the ellipses will alternate:
 
-> "I have no idea where `height` even came from and I don't know what it's supposed to be"
->
-> \- <cite>Timbits<cite/>
-
 ```python
 def setup():
     frameRate(2.5)
@@ -281,11 +269,6 @@ def draw():
 ```
 
 ### Moving Background
-
-> "No explanation on why this might ever be the case but I'm not sure if it's necessary?
-> I can see this being meant for more 'advanced' students who already understand frame of reference and other such concepts"
->
-> \- <cite>Timbits<cite/>
 
 Instead of moving an object on your screen, sometimes it is easier to move the background itself instead.
 To do this, we use the `copy()` function.
